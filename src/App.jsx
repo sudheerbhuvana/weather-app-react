@@ -26,7 +26,7 @@ function App() {
   const [alertsData, setAlertsData] = useState(null);
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState(null);
-  const [location, setLocation] = useState('London');
+  const [location, setLocation] = useState('India');
   const [activeTab, setActiveTab] = useState('current');
 
   const fetchWeatherData = async (city) => {
